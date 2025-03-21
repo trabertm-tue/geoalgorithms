@@ -1,0 +1,117 @@
+
+\documentclass[a4paper,UKenglish,cleveref, autoref]{lipics-v2019}
+%This is a template for producing LIPIcs articles.
+%See lipics-manual.pdf for further information.
+%for A4 paper format use option "a4paper", for US-letter use option "letterpaper"
+%for british hyphenation rules use option "UKenglish", for american hyphenation rules use option "USenglish"
+%for section-numbered lemmas etc., use "numberwithinsect"
+%for enabling cleveref support, use "cleveref"
+%for enabling cleveref support, use "autoref"
+
+
+%\graphicspath{{./graphics/}}%helpful if your graphic files are in another directory
+
+\bibliographystyle{plainurl}% the mandatory bibstyle
+
+\title{Group X: Project title} %TODO Please add
+
+\titlerunning{Project title}%optional, please use if title is longer than one line
+
+\author{John Q. Public}{<STUDENT NR> }{<EMAIL ADDRESS>}{}{}
+
+\author{Joan R. Public}{<STUDENT NR> }{<EMAIL ADDRESS>}{}{}
+
+\authorrunning{Group X}
+
+\Copyright{John Q. Public and Joan R. Public}%TODO mandatory, please use full first names. LIPIcs license is "CC-BY";  http://creativecommons.org/licenses/by/3.0/
+
+\ccsdesc[100]{\ }
+%\ccsdesc[100]{General and reference}%TODO mandatory: Please choose ACM 2012 classifications from https://dl.acm.org/ccs/ccs_flat.cfm
+
+\keywords{\ }%TODO mandatory; please add comma-separated list of keywords
+
+\category{}%optional, e.g. invited paper
+
+\relatedversion{}%optional, e.g. full version hosted on arXiv, HAL, or other respository/website
+%\relatedversion{A full version of the paper is available at \url{...}.}
+
+\supplement{}%optional, e.g. related research data, source code, ... hosted on a repository like zenodo, figshare, GitHub, ...
+
+%\funding{(Optional) general funding statement \dots}%optional, to capture a funding statement, which applies to all authors. Please enter author specific funding statements as fifth argument of the \author macro.
+
+%\acknowledgements{I want to thank \dots}%optional
+
+%\nolinenumbers %uncomment to disable line numbering
+
+\hideLIPIcs  %uncomment to remove references to LIPIcs series (logo, DOI, ...), e.g. when preparing a pre-final version to be uploaded to arXiv or another public repository
+
+%Editor-only macros:: begin (do not touch as author)%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\EventEditors{John Q. Open and Joan R. Access}
+\EventNoEds{2}
+\EventLongTitle{42nd Conference on Very Important Topics (CVIT 2016)}
+\EventShortTitle{CVIT 2016}
+\EventAcronym{CVIT}
+\EventYear{2016}
+\EventDate{December 24--27, 2016}
+\EventLocation{Little Whinging, United Kingdom}
+\EventLogo{}
+\SeriesVolume{42}
+\ArticleNo{23}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\maketitle
+
+%TODO mandatory: add short abstract of the document
+\begin{abstract}
+Short description of your work
+\end{abstract}
+
+\section{Introduction}
+\label{sec:intro}
+
+\subparagraph{Problem statement.}
+We need to find a simple-to-use template to start a project report in  LIPIcs v2019.
+
+\subparagraph{Results.}
+This document provides such a template.
+
+\subparagraph{Related work.}
+LIPIcs provides the basic template and is thus relevant. But there are many others: these don't apply because our problem statement is about LIPIcs v2019.
+
+\section{Modelling}
+\label{sec:model}
+
+\subsection{Validity}
+\label{ssec:validity}
+
+\subsection{Quality}
+\label{ssec:quality}
+
+\section{Algorithms}
+\label{sec:algorithms}
+
+\section{Experiments}
+\label{sec:exp}
+
+\subparagraph{Questions.}
+
+\subparagraph{Data.}
+
+\subparagraph{Results.}
+
+\section{Conclusions}
+
+Up to here, your report should consist of at most 11 pages.
+
+\clearpage
+% make sure to create a file called references.bib
+\bibliography{references}
+
+\appendix
+\section{The devil is in the details}
+
+You may add as much material (proofs, derivations, figures, tables, ...) as you want in the appendix. But make sure your report can be understood without relying on these.
+
+\end{document}
